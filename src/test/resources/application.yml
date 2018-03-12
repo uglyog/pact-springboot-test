@@ -1,0 +1,7 @@
+pactbroker:
+  host: "test.pact.dius.com.au"
+  port: "443"
+  protocol: "https"
+  auth:
+    username: ""
+    password: ""

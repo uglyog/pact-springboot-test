@@ -17,6 +17,7 @@ bootJar {
 }
 
 repositories {
+  mavenLocal()
   mavenCentral()
 }
 
@@ -28,4 +29,5 @@ dependencies {
 
   testCompile("junit:junit")
   testCompile("org.springframework.boot:spring-boot-starter-test")
+  testCompile("au.com.dius:pact-jvm-provider-spring_2.12:3.5.14")
 }
